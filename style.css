@@ -140,7 +140,7 @@ h2 {
     background-color: var(--Dark-gray-blue);
     color: var(--White);
     border: none;
-    border-radius: 8px;
+    border-radius: 20px;
     padding: 12px 24px;
     font-size: 1em;
     cursor: pointer;
