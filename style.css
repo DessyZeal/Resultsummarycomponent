@@ -155,4 +155,34 @@ h2 {
     position: absolute;
     bottom: 0;
 }
-
+@media (min-width: 768px) and (max-width: 991px) {
+    .left {
+        flex-direction: column;
+        max-width: 800px;
+    }
+    .left {
+        flex: 1;
+        padding: 30px;
+    }
+    .right {
+        flex: 1;
+        padding: 30px;
+    }
+}
+/* mobile devices */
+@media (max-width: 575px) {
+    .container {
+        flex-direction: column;
+        max-width: 90%;
+        margin: 15px auto;
+    }
+    .left {
+        border-radius: 15px;
+    }
+    .right {
+        border-radius: 15px;
+        padding: 20px;
+    }
+    .attribution {
+        display: none;
+}
